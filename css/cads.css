@@ -70,8 +70,8 @@ a.nontext /* used to override default properties of 'a' tag */
 
 .jumbotron
 {
-    margin-top:160px; 
-    margin-bottom:160px; 
+    margin-top:160px;
+    margin-bottom:160px;
 
     background-color: #F1F1F1;
 }
@@ -103,20 +103,20 @@ a.nontext /* used to override default properties of 'a' tag */
     color: #9EB247;
     font-family: '__Roboto_5';
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #9EB247;
     background-color: #E7E7E7;
-    
+
     font-family: '__Roboto_5';
 }
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     color: #555;
     background-color: #D5D5D5;
-    
+
     font-family: '__Roboto_5';
 }
 /* caret */
@@ -124,6 +124,59 @@ a.nontext /* used to override default properties of 'a' tag */
     border-top-color: #777;
     border-bottom-color: #777;
     font-family: '__Roboto_5';
+}
+
+/* übernommene Schemas */
+sidebar-collapse .nav {
+	padding:0;
+    padding-top:50px;
+}
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+    color: #214761;
+font-weight: 900;
+font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom:1px solid #e1e1e1;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+
+	background:#F3F3F3;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+
+}
+.navbar-inverse {
+
+background-color: #214761;
+border-color: #F0F0F0;
+min-height: 80px;
+}
+
+
+.nav > li > a > i {
+    margin-right:10px;
+}
+.logout-spn {
+    float:right;
+    color:#fff;
+    font-size:25px;
+    font-weight:800;
+    margin:20px;
+    margin: 10px 25px 10px 50px;
+}
+    .logout-spn a {
+        text-decoration:none;
+    }
+.active-link {
+    background-color:#f3f3f3;
 }
 
 
@@ -144,7 +197,7 @@ a.nontext /* used to override default properties of 'a' tag */
     text-align:center;
     color: #FFFFFF;
     border-bottom-color: #FFFFFF
-    	
+
 }
 .cads_footer_contact_me a:link
 {
@@ -166,7 +219,7 @@ a.nontext /* used to override default properties of 'a' tag */
     text-align: left;
     color: #FFFFFF;
     border-radius: 8px;
-    	
+
 }
 .cads_footer_impressum a
 {
@@ -183,7 +236,7 @@ a.nontext /* used to override default properties of 'a' tag */
     text-align:center;
     color: #FFFFFF;
 
-    margin-bottom:  8px;	
+    margin-bottom:  8px;
 }
 
 .cads_footer_hide a:link
@@ -195,16 +248,16 @@ a.nontext /* used to override default properties of 'a' tag */
 
 .cads_footer_text
 {
- 	background-color: #204C86;   
-    color: #FFFFFF;   
+ 	background-color: #204C86;
+    color: #FFFFFF;
     border-style: solid;
     border-color: #FFFFFF;
-    border-bottom-width: 1px;	 
+    border-bottom-width: 1px;
 }
 
 .cads_footer_text_down
 {
-	background-color: #204C86;  
+	background-color: #204C86;
 	border-color: #FFFFFF;
     border-top-width: 1px;
 }
@@ -233,7 +286,7 @@ a.nontext /* used to override default properties of 'a' tag */
 
 .cads_facebook
 {
-	background-color: #FFFFFF;  
+	background-color: #FFFFFF;
 	color: #FFFFFF;
 	border-width: 2px;
 	border-radius: 20px;
@@ -241,7 +294,7 @@ a.nontext /* used to override default properties of 'a' tag */
 
 .cads_facebook a
 {
-	background-color: #B0C4DE;  
+	background-color: #B0C4DE;
 	color: #FFFFFF;
 	padding: 10px;
 	font-size: 17px;
@@ -249,16 +302,16 @@ a.nontext /* used to override default properties of 'a' tag */
 	border-radius: 10px;
 	border-width: 2px;
 	line-height: 22px;
-	border-color: #204C86;  
+	border-color: #204C86;
 	font-weight: bold;
-	font-family: '__Roboto_5';	
+	font-family: '__Roboto_5';
 	padding-right: 95px;
 
 }
 
 .cads_facebook a:hover
 {
-	background-color: #204C86;  
+	background-color: #204C86;
 	color: #FFFFFF;
 	margin-left: -40;
 	padding: 10px;
@@ -266,7 +319,7 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-weight: 400;
 	border-radius: 11px;
 	border-width: 50px;
-	border-color: #204C86;  
+	border-color: #204C86;
 	line-height: 22px;
 	text-decoration: none;
 	font-family: '__Roboto_5';
@@ -285,18 +338,18 @@ a.nontext /* used to override default properties of 'a' tag */
 	width: 100%;
 }
 
-.cads_space_header 
+.cads_space_header
 {
 
 	vertical-align: middle;
-	background-color: #B0C4DE;  
+	background-color: #B0C4DE;
 	color: #FFFFFF;
 	height: 30px;
 	font-size: 10px;
 	border-radius: 10px;
 	text-decoration: none;
 	font-weight: bold;
-	font-family: '__Roboto_5';	
+	font-family: '__Roboto_5';
 	text-align: center;
 }
 
@@ -317,7 +370,7 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-size: 16px;
 	font-family: '__Roboto_5';	*/
 	text-align: center;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 
@@ -360,18 +413,18 @@ a.nontext /* used to override default properties of 'a' tag */
 	max-height: 280px;
 	width: 100%;
     margin: 0 auto;
-   	margin-top: -62px; 
+   	margin-top: -62px;
    	margin-bottom:-20px;
 	padding: 20px;
-   	font-family: '__Roboto_5';	
+   	font-family: '__Roboto_5';
 
 }
 
 .cads_bodytext
 {
    min-width: 350px;
-   margin-bottom:60px; 
-   margin-left: -40px; 
+   margin-bottom:60px;
+   margin-left: -40px;
    padding-left: 10%;
    padding-right: 5%;
    text-align: justify;
@@ -435,11 +488,11 @@ a.nontext /* used to override default properties of 'a' tag */
  	margin-left: -20px;
 }
 
-.cads_goals_format 
+.cads_goals_format
 {
 	font-size: 14px;
 	font-weight: bold;
-	margin-left: 20px;	
+	margin-left: 20px;
 }
 
 .cads_goals_format ul ul
@@ -491,7 +544,7 @@ a.nontext /* used to override default properties of 'a' tag */
 
 .cads_space_creator
 {
-	padding: 2%;	
+	padding: 2%;
 }
 /* Some basic setups for the fonts */
 
