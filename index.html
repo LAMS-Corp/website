@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>CaDS Measurement Portal II</title>
+    <title>LAMS starting page</title>
      <link rel="shortcut icon" href="images/favicon.ico"/>
     <script>document.write('<base href="' + document.location + '" />');</script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,18 +16,18 @@
     <center>
     <br/>
     <br/>
-    <img class="block" id="u81_img" src="../images/becke_vorlaeufiges_logo.png" alt="" width="224" height="106"/> 
+    <img class="block" id="u81_img" src="../images/becke_vorlaeufiges_logo.png" alt="" width="224" height="106"/>
     <br/>
     <br/>
     <br/>
     </center>
-    <my-app> 
+    <my-app>
     <center>Loading app <br/> <br/> <i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>  </center>
     <div class="navbar-fixed-bottom">
         <h6>Note: Beta Version (Angular2) v0.1 Single Page Application. Running in a docker environment, provides HTTP2 and uses Let's Encrypt. <br/> &copy; 2017 Martin Becke (on error visit <a href="http://scimbe.de/_index.html">Static Site</a></h6>
     </div>
     </my-app>
-    <!-- Bootstrap --> 
+    <!-- Bootstrap -->
     <script defer src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
     <script defer  src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular-route.min.js"></script>
     <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -38,15 +38,15 @@
     <script defer src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-    
+
     <script  src="systemjs.config.js"></script>
     <script>
       System.import('app').catch(function(err){ console.error(err); });
     </script>
-    
+
 <!-- Twitter -->
   <script defer src="node_modules/ngtweet/dist/ngtweet.min.js"></script>
-    
+
 <!-- CaDS Style -->
     <link rel="stylesheet" href="css/cads.css">
     <script defer src="js/workaround.js"></script>

@@ -1,1 +1,1 @@
- docker build -t mikkoE/lamshp-app .
+ docker build -t mikkoe/lamshp-app .
