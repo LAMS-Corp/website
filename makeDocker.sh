@@ -1,1 +1,1 @@
- docker build -t scimbe/cads-hp-nodejs-app .
+ docker build -t mikkoE/lamshp-app .
