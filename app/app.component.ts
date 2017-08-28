@@ -9,6 +9,7 @@ import { Component, NgZone, EventEmitter, OnInit } from '@angular/core';
         <cads-teaser></cads-teaser>
         <router-outlet></router-outlet>
         <cads-footer></cads-footer>
+        /*<navigation_left></navigation>*/
     `,
 })
 
@@ -18,13 +19,13 @@ export class AppComponent  implements OnInit  {
   title     = 'CaDS Playground';
   page_name = 'home';
   zone: NgZone;
-   
+
   constructor(private _ngZone: NgZone) {
     this.zone = _ngZone;
     console.log("======= CaDS Component START ========");
   };
 
-  
+
   ngOnInit(): void {
 
     /* global callTheTwitterFunction*/
@@ -32,7 +33,7 @@ export class AppComponent  implements OnInit  {
            //  callTheTwitterFunction();
     });
 
-  
+
 
     console.log("page loading completed");
   }
