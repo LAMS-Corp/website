@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
+var AppComponent = /** @class */ (function () {
     function AppComponent(_ngZone) {
         this._ngZone = _ngZone;
         this.title = 'CaDS Playground';
@@ -29,7 +29,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n        <base href=\"/\">\n        <cads-header></cads-header>\n        <cads-teaser></cads-teaser>\n        <router-outlet></router-outlet>\n        <cads-footer></cads-footer>\n    <navigation_left></navigation>\n",
+            template: "\n        <base href=\"/\">\n        <cads-header></cads-header>\n        <cads-teaser></cads-teaser>\n        <router-outlet></router-outlet>\n        <cads-footer></cads-footer>\n        /*<navigation_left></navigation>*/\n    ",
         }),
         __metadata("design:paramtypes", [core_1.NgZone])
     ], AppComponent);

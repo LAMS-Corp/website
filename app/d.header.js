@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var Header = (function () {
+var Header = /** @class */ (function () {
     function Header(router) {
         this.router = router;
     }

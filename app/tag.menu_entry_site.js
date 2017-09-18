@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var CADS_TAG_MENU_ENTRY_SITE = (function () {
+var CADS_TAG_MENU_ENTRY_SITE = /** @class */ (function () {
     function CADS_TAG_MENU_ENTRY_SITE() {
     }
     CADS_TAG_MENU_ENTRY_SITE.prototype.toogleID = function () {

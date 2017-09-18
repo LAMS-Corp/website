@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var Footer = (function () {
+var Footer = /** @class */ (function () {
     function Footer() {
     }
     Footer = __decorate([

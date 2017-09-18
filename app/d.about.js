@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var CADS_About = (function () {
+var CADS_About = /** @class */ (function () {
     function CADS_About() {
     }
     CADS_About.prototype.ngOnInit = function () {

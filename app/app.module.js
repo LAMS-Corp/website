@@ -32,7 +32,7 @@ var d_forstudents_1 = require("./d.forstudents");
 var d_findcads_1 = require("./d.findcads");
 var d_impressum_1 = require("./d.impressum");
 // Declare NgModule
-var AppModule = (function () {
+var AppModule = /** @class */ (function () {
     function AppModule() {
         console.log("======= CaDS APP START =========");
     }
